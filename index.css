@@ -48,7 +48,7 @@ p  {
 .link-regi  {
     text-decoration: none;
     color: hsl(257, 40%, 49%);
-    
+    background-color: #fff;
     padding: 10px  60px;
     border-radius: 200px;
     text-align: center;
@@ -58,7 +58,7 @@ p  {
 }
 
 .link-regi:hover  {
-    background-color: #fff;
+    text-decoration: normal;
 }
 
 .social-links  {
