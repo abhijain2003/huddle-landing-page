@@ -3,7 +3,7 @@
     padding: 0;
 }
 body  {
-    font-family: 'Open Sans' , 'Poppins' , sans-serif;
+    font-family: 'Open Sans' , sans-serif;
     background-color: hsl(257, 40%, 49%);
     background-image: url(images/bg-mobile.svg);
     background-repeat: no-repeat;
@@ -29,6 +29,7 @@ body  {
 
 h2  {
     color: #fff;
+    font-family: 'Poppins' , sans-serif;
     font-weight: 600;
     width: 250px;
     margin: 30px  auto;
@@ -47,13 +48,17 @@ p  {
 .link-regi  {
     text-decoration: none;
     color: hsl(257, 40%, 49%);
-    background-color: #fff;
+    
     padding: 10px  60px;
     border-radius: 200px;
     text-align: center;
     width: 100px;
     margin: 10px  auto;
     box-shadow: 0  0  14px  5px  #0000002e;
+}
+
+.link-regi:hover  {
+    background-color: #fff;
 }
 
 .social-links  {
